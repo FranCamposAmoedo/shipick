@@ -1,0 +1,25 @@
+.navBar {
+    display: flex;
+    font-weight: 300;
+    letter-spacing: 2px;
+    list-style: none;
+    align-items: center;
+}
+
+.list-item {
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.social-container {
+    margin-left: 40px;
+}
+
+.social {
+    padding-left: 20px;
+}

@@ -1,0 +1,29 @@
+.container-us {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.us-text {
+    margin: auto 0;  
+    width: 50%;
+    min-width: 600px;
+    padding-left: 4%;
+    padding-right: 16%;
+    line-height: 3.2rem;
+}
+
+.us-text h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 15%;
+}
+
+.us-text p {
+    font-size: 1.8rem;
+}
+
+.img-us {
+    width: 50%;
+}
