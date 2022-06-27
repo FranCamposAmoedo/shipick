@@ -1,0 +1,29 @@
+#clients {
+    background-color: lightgray;
+}
+
+.clients-title {
+    font-size: 3rem;
+    padding: 4rem;
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.clients-line {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.clients-list-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1rem 20rem;
+    padding-bottom: 10rem;
+}
+
+.client-container {
+    margin: 1.5rem;
+}

@@ -1,0 +1,35 @@
+#item-list-container {
+    background-color: black;
+}
+
+.different {
+    font-size: 3rem;
+    padding: 4rem;
+    padding-top: 6rem;
+    text-align: center;
+    color: white;
+}
+
+.item-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.item-list {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    color: white;
+}
+
+.container-list {
+    margin: 5.5rem;
+}
+
+.container-list p {
+    max-width: 300px;
+    text-align: center;
+
+}
