@@ -1,25 +1,36 @@
 .navBar {
-    display: flex;
-    font-weight: 300;
-    letter-spacing: 2px;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  font-weight: 300;
+  letter-spacing: 2px;
+  list-style: none;
+  align-items: center;
 }
 
 .list-item {
-    color: white;
-    padding: 0 15px;
-    text-decoration: none;
+  color: white;
+  padding: 0 15px;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.list-item:hover {
+  color: rgb(248, 244, 8);
+  font-weight: bold;
+  border: 0;
 }
 
 .menu-container {
-    display: flex;
+  display: flex;
 }
 
 .social-container {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 .social {
-    padding-left: 20px;
+  padding-left: 20px;
+}
+
+.social img:hover {
+    color: rgb(248, 244, 8);
 }

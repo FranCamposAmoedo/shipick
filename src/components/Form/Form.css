@@ -1,0 +1,59 @@
+.speaker-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: 0 10px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="tel"] {
+  background-color: #ffffff;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 100%;
+  min-width: 200px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row textarea {
+  font-size: 14px;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 100%;
+  min-width: 200px;
+  min-height: 40px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: vertical;
+}
+
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+  width: 100px;
+  color: black;
+  background-color: rgb(248, 244, 8);
+  border: none;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+.form-row button:hover {
+  background-color: rgb(252, 250, 126);
+}
+
+.form-row button:active {
+  background-color: rgb(230, 226, 0);
+}

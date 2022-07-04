@@ -1,0 +1,73 @@
+#footer {
+  background-color: black;
+  color: white;
+  height: 160px;
+  display: flex;
+  font-weight: 300;
+  letter-spacing: 2px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.links-footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-item {
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  margin: 2px 5px;
+  padding: 3px 10px;
+}
+
+.footer-item:hover {
+  color: rgb(248, 244, 8);
+  font-weight: bold;
+  border: 0;
+}
+
+.contacts-footer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 30px;
+  font-size: 0.85rem;
+}
+
+.tel-email {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.tel-email-item {
+  margin: 0 5px;
+}
+
+.tel-email h6 {
+    margin-right: 30px;
+}
+
+.tel-email img {
+  width: 20px;
+  height: fit-content;
+}
+
+.tel-email a {
+  text-decoration: none;
+  color: white;
+}
+
+.follow-us {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.follow-us-item {
+    margin: 0 5px;
+}

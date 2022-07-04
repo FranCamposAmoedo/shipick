@@ -8,6 +8,9 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import items from "./arrayItems";
 import clients from './arrayClients';
 import ClientsListContainer from './components/ClientsListContainer/ClientsListContainer';
+import Map from './components/Map/Map';
+import Form from './components/Form/Form';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -19,6 +22,9 @@ const App = () => {
       <Services />
       <ItemListContainer items={items} />
       <ClientsListContainer clients={clients} />
+      <Map />
+      <Form />
+      <Footer />
     </div>
   );
 }
