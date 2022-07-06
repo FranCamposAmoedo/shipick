@@ -2,52 +2,53 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <section id="footer">
+    <footer id="footer">
       <div className="links-footer-container">
-        <li>
-          <a className="footer-item" href="#home">
-            Inicio
-          </a>
-        </li>
-        <li>
-          <a className="footer-item" href="#us">
-            Nosotros
-          </a>
-        </li>
-        <li>
-          <a className="footer-item" href="#services">
-            Servicios
-          </a>
-        </li>
-        <li>
-          <a className="footer-item" href="#clients">
-            Clientes
-          </a>
-        </li>
-        <li>
-          <a className="footer-item" href="#contact">
-            Contacto
-          </a>
-        </li>
+        <a className="footer-item" href="#home">
+          Inicio
+        </a>
+
+        <a className="footer-item" href="#us">
+          Nosotros
+        </a>
+
+        <a className="footer-item" href="#services">
+          Servicios
+        </a>
+
+        <a className="footer-item" href="#clients">
+          Clientes
+        </a>
+
+        <a className="footer-item" href="#contact">
+          Contacto
+        </a>
       </div>
       <div className="contacts-footer">
         <div className="tel-email">
           <h6 className="tel-email-item">Contacto</h6>
-          <img
-            className="tel-email-item"
-            src="./images/icons/icono cel.png"
-            alt=""
-          />
-          <a className="tel-email-item" href="tel:+541126719754">
+          <a href="tel:+541126719754">
+            <img
+              className="tel-email-item"
+              src="./images/icons/icono cel.png"
+              alt=""
+            />
+          </a>
+          <a className="tel-email-item contact-text" href="tel:+541126719754">
             +54 11 2671-9754
           </a>
           <span className="tel-email-item">|</span>
-          <img
-            className="tel-email-item"
-            src="./images/icons/icono mail.png"
-            alt=""
-          />
-          <a className="tel-email-item" href="mailto:info@shipick.com.ar">
+          <a href="mailto:info@shipick.com.ar">
+            <img
+              className="tel-email-item"
+              src="./images/icons/icono mail.png"
+              alt=""
+            />
+          </a>
+          <a
+            className="tel-email-item contact-text"
+            href="mailto:info@shipick.com.ar"
+          >
             info@shipick.com.ar
           </a>
         </div>
@@ -67,7 +68,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 

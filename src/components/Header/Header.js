@@ -1,13 +1,14 @@
-import './Header.css';
-import NavBar from '../NavBar/NavBar';
+import "./Header.css";
+import NavBar from "../NavBar/NavBar";
+import Home from "../Home/Home";
 
 const Header = () => {
-    return (
-        <header className="header">
-            <img src="../images/logos/logo shipick.png" alt="" />
-            <NavBar />
-        </header>
-    )
-}
+  return (
+    <header className="background-parallax">
+      <NavBar />
+      <Home />
+    </header>
+  );
+};
 
 export default Header;

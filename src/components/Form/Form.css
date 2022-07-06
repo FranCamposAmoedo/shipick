@@ -4,6 +4,17 @@
   flex-wrap: wrap;
   width: 100%;
   padding: 50px;
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.form-title {
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .form-row {
@@ -11,8 +22,12 @@
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 40%;
-  margin: 0 10px;
+  min-width: 300px;
+  margin: 20px 10px;
+}
+
+.form-row label {
+  height: 20px
 }
 
 .form-row input[type="text"],
@@ -32,10 +47,9 @@
   border: 0;
   border-bottom: 1px solid black;
   width: 100%;
+  height: 36px;
+  min-height: 36px;
   min-width: 200px;
-  min-height: 40px;
-  margin-bottom: 10px;
-  padding: 7px;
   resize: vertical;
 }
 
@@ -56,4 +70,16 @@
 
 .form-row button:active {
   background-color: rgb(230, 226, 0);
+}
+
+@media screen and (max-width: 766px) {
+  .speaker-form {
+    padding: 10px 50px;
+  }
+  .form-title {
+    text-align: center;
+  }
+  .form-row button {
+    margin: 0 auto;
+  }
 }

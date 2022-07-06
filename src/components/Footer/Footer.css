@@ -1,7 +1,7 @@
 #footer {
   background-color: black;
   color: white;
-  height: 160px;
+  height: 180px;
   display: flex;
   font-weight: 300;
   letter-spacing: 2px;
@@ -70,4 +70,19 @@
 
 .follow-us-item {
     margin: 0 5px;
+}
+
+@media screen and (max-width: 775px) {
+  .links-footer-container {
+    flex-wrap: wrap;
+  }
+  .contact-text {
+    display: none;
+  }
+  .follow-us {
+    margin: 0;
+  }  
+  .follow-us h6 {
+    display: none;
+  }
 }

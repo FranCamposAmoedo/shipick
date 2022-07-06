@@ -1,29 +1,51 @@
 #clients {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 .clients-title {
-    font-size: 3rem;
-    padding: 4rem;
-    padding-top: 6rem;
-    text-align: center;
+  font-size: 3rem;
+  padding: 4rem;
+  padding-top: 6rem;
+  text-align: center;
 }
 
 .clients-line {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 5rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5rem;
 }
 
 .clients-list-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 1rem 20rem;
-    padding-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 1rem 15rem;
+  padding-bottom: 10rem;
 }
 
 .client-container {
-    margin: 1.5rem;
+  margin: 1.5rem;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1208px) {
+  .clients-list-container {
+    padding: 1rem 4rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .clients-title {
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+  .clients-line {
+    margin: 2rem auto;
+  }
+  .clients-list-container {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
 }

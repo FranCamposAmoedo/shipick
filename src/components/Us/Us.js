@@ -1,29 +1,38 @@
 import "./Us.css";
 
 const Us = () => {
-    return (
-        <section id="us">
-            <div className="container-us">
-                <div id="carouselExampleSlidesOnly" className="carousel slide img-us" /* data-bs-ride="carousel" */ data-bs-interval="5000">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <img src="../images/pictures/foto 1 nosotros.png" className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item">
-                            <img src="../images/pictures/foto 2 nosotros.png" className="d-block w-100" alt="..." />
-                        </div>
-                    </div>
-                </div>
-                <div className="us-text">
-                    <h2>Nosotros</h2>
-                    <p>
-                        <b>Somos una startup joven e innnovadora, y venimos a solucionar de manera ágil y eficiente la logística del ecommerce.</b><br />
-                        Contamos con una flora variada, para adaptarnos de manera óptima a las distintas escalas y necesidades de nuestros clientes. 
-                    </p>
-                </div>
+  return (
+    <section id="us">
+      <div className="container-us">
+        <img
+          src="../images/pictures/foto 1 nosotros-sinBarra.png"
+          className="img-us"
+          alt="..."
+        />
+        <div className="us-bar">
+          <div className="us-text">
+            <div className="us-line-title">
+              <img
+                className="us-line"
+                src="./images/icons/linea nosotros.png"
+                alt=""
+              />
+              <h2 className="us-title">Nosotros</h2>
             </div>
-        </section>
-    )
-}
+            <p className="us-paragraph">
+              <span>
+                Somos una startup joven e innnovadora, y venimos a solucionar de
+                manera ágil y eficiente la logística del ecommerce.
+              </span>
+              <br />
+              Contamos con una flora variada, para adaptarnos de manera óptima a
+              las distintas escalas y necesidades de nuestros clientes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default Us;

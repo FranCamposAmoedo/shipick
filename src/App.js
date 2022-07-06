@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Home from './components/Home/Home';
 import Banner from './components/Banner/Banner';
 import Us from './components/Us/Us';
 import Services from './components/Services/Services';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import items from "./arrayItems";
 import clients from './arrayClients';
+import banners from './arrayBanners';
 import ClientsListContainer from './components/ClientsListContainer/ClientsListContainer';
 import Map from './components/Map/Map';
 import Form from './components/Form/Form';
@@ -16,8 +16,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <Home />
-      <Banner />
+      <Banner banners={banners} />
       <Us />
       <Services />
       <ItemListContainer items={items} />
