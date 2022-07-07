@@ -1,22 +1,54 @@
 .parallax-content {
-    position: absolute;
-    top: 35%;
-    left: 10%;
-    color: white;
-    letter-spacing: 1.5px;
-    width: 45vw;
+  position: relative;
+  top: 15vw;
+  left: 10vw;
+  color: white;
+  letter-spacing: 1.5px;
+  width: 45vw;
 }
 
 .parallax-content h2 {
-    font-size: 3.8vw;
-    font-weight: 200;
+  font-size: 4rem;
+  font-weight: 200;
 }
 
 .parallax-content h2 b {
-    font-weight: 600;
+  font-weight: 600;
+}
+
+.parallax-content img {
+  margin: 50px 0;
 }
 
 .parallax-content p {
-    font-size: 2vw;
+  font-size: 2rem;
 }
 
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .parallax-content {
+    width: 60vw;
+  }
+  .parallax-content h2 {
+    font-size: 3rem;
+  }
+  .parallax-content p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .parallax-content {
+    top: 18vw;
+    left: 4vw;
+    width: 90%;
+  }
+  .parallax-content h2 {
+    font-size: 2.25rem;
+  }
+  .parallax-content p {
+    font-size: 1.3rem;
+  }
+  .parallax-content img {
+    margin: 20px 0;
+  }
+}

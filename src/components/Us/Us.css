@@ -55,9 +55,9 @@
 
 @media screen and (min-width: 767px) and (max-width: 1208px) {
   .us-text {
-    padding-top: 7vw;
-    margin-left: 10vh;
-    margin-right: 13vh;
+    padding-top: 5vw;
+    margin-left: 7vw;
+    margin-right: 12vw;
   }
 
   .us-line-title {

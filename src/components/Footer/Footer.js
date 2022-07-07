@@ -7,19 +7,15 @@ const Footer = () => {
         <a className="footer-item" href="#home">
           Inicio
         </a>
-
         <a className="footer-item" href="#us">
           Nosotros
         </a>
-
         <a className="footer-item" href="#services">
           Servicios
         </a>
-
         <a className="footer-item" href="#clients">
           Clientes
         </a>
-
         <a className="footer-item" href="#contact">
           Contacto
         </a>

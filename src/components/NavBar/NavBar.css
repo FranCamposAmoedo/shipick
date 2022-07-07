@@ -14,7 +14,8 @@
   
   .navbar-nav {
     flex-direction: row;
-    margin: 0 auto;    
+    margin: 0 auto;
+    margin-left: 12vw;  
   }
 
   .navbar-collapse {
@@ -23,65 +24,87 @@
   }
 
   .nav-link {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    margin: 0 0.8rem;
+    color: white;
+  }
+  .social {
     padding: 0 0.5rem;
   }
 }
 
-@media (max-width: 766px) {
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .container {
+    max-width: 1060px;
+    padding: 0 2rem;
+  }
+  .navbar-nav {
+    margin-left: auto;
+  }
+  .nav-link {
+    font-size: 1rem;
+    margin: 0 0.4rem;
+    letter-spacing: 3px;
+  }
+  .social {
+    padding: 0 0.2rem;
+  }
+}
+
+@media screen and (min-width: 766px) and (max-width: 991px) {
+  .container {
+    max-width: 800px;
+    padding: 0 2rem;
+  }
+  .navbar-nav {
+    margin-left: auto;
+  }
+  .nav-link {
+    font-size: 1rem;
+    margin: 0 0.3rem;
+    letter-spacing: 1.8px;
+  }
+  .social {
+    padding: 0 0.2rem;
+  }
+  .social img {
+    width: 28px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 766px) {
   .navbar {
     justify-content: space-around;
   }
-
   .navbar-collapse {
-    margin-left: 300px;
-    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 50px;
+  }
+  .nav-link {
+    color: white;
+  }
+  .social {
+    padding: 0 0.2rem;
   }
 }
 
-/* .navbar {
-  --bs-navbar-color: white;
-  --bs-navbar-active-color: white;
-} */
-
-/* .navbar-collapse {
-  position: relative;
-  right: 0;
-} */
-
-/* .navBar {
-  display: flex;
-  font-weight: 300;
-  letter-spacing: 2px;
-  list-style: none;
-  align-items: center;
+@media screen and (max-width: 499px) {
+  .navbar {
+    justify-content: space-around;
+  }
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+  }
+  .nav-link {
+    color: white;
+  }
+  .social {
+    padding: 0 0.2rem;
+  }
 }
-
-.list-item {
-  color: white;
-  padding: 0 15px;
-  text-decoration: none;
-  border: 2px solid transparent;
-}
-
-.list-item:hover {
-  color: rgb(248, 244, 8);
-  font-weight: bold;
-  border: 0;
-}
-
-.menu-container {
-  display: flex;
-}
-
-.social-container {
-  margin-left: 40px;
-}
-
-.social {
-  padding-left: 20px;
-}
-
-.social img:hover {
-    color: rgb(248, 244, 8);
-}
- */
