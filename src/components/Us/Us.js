@@ -38,7 +38,7 @@ const Us = () => {
                 manera ágil y eficiente la logística del ecommerce.
               </span>
               <br />
-              Contamos con una flora variada, para adaptarnos de manera óptima a
+              Contamos con una flota variada, para adaptarnos de manera óptima a
               las distintas escalas y necesidades de nuestros clientes.
             </p>            
           </div>

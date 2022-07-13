@@ -75,7 +75,25 @@
 
 @media screen and (min-width: 501px) and (max-width: 766px) {
   .speaker-form {
-    padding: 10px 50px;
+    padding: 10px 20px;
+  }
+  .form-title {
+    text-align: center;
+  }
+  .form-row {
+    min-width: 450px;
+  }
+  .form-row button {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 301px) and (max-width: 500px) {
+  .speaker-form {
+    padding: 10px 20px;
+  }
+  .form-row {
+    min-width: 290px;
   }
   .form-title {
     text-align: center;
@@ -85,9 +103,12 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
+  .speaker-form {
+    padding: 10px 20px;
+  }
   .form-row {
-    min-width: 250px;
+    min-width: 260px;
   }
   .form-title {
     text-align: center;
