@@ -4,7 +4,7 @@ import Home from "../Home/Home";
 
 const Header = () => {
   return (
-    <header className="background-parallax">
+    <header id="home" className="background-parallax">
       <NavBar />
       <Home />
     </header>

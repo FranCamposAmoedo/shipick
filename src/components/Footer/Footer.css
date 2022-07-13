@@ -10,26 +10,20 @@
   justify-content: center;
   flex-direction: column;
 }
-
 .links-footer-container {
   display: flex;
   justify-content: center;
 }
-
 .footer-item {
   color: white;
   text-decoration: none;
-  border: 2px solid transparent;
   margin: 2px 5px;
   padding: 3px 10px;
 }
-
 .footer-item:hover {
-  color: rgb(248, 244, 8);
-  font-weight: bold;
-  border: 0;
+  color: white;
+  opacity: 0.8;
 }
-
 .contacts-footer {
   display: flex;
   justify-content: center;
@@ -37,42 +31,41 @@
   margin-top: 30px;
   font-size: 0.85rem;
 }
-
 .tel-email {
   display: flex;
   align-items: center;
   margin-right: 30px;
 }
-
 .tel-email-item {
   margin: 0 5px;
 }
-
 .tel-email h6 {
-    margin-right: 30px;
+  margin-right: 30px;
 }
-
 .tel-email img {
   width: 20px;
   height: fit-content;
 }
-
 .tel-email a {
   text-decoration: none;
   color: white;
 }
-
 .follow-us {
   display: flex;
   margin-left: 30px;
   align-items: center;
 }
-
 .follow-us-item {
-    margin: 0 5px;
+  margin: 0 5px;
+}
+.fui:hover {
+  opacity: 0.8;
+}
+.contact-text:hover {
+  opacity: 0.8;
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (min-width: 300px) and (max-width: 775px) {
   .links-footer-container {
     flex-wrap: wrap;
   }
@@ -81,8 +74,29 @@
   }
   .follow-us {
     margin: 0;
-  }  
+  }
   .follow-us h6 {
     display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .links-footer-container {
+    flex-wrap: wrap;
+  }
+  .contact-text {
+    display: none;
+  }
+  .follow-us {
+    margin: 0;
+  }
+  .follow-us h6 {
+    display: none;
+  }
+  .tel-email {
+    margin-right: 10px;
+  }
+  .tel-email h6 {
+    margin-right: 5px;
   }
 }

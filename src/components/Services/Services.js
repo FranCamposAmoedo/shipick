@@ -8,8 +8,8 @@ const Services = () => {
           <div className="services-line-title">
             <img
               className="services-line"
-              src="./images/icons/linea servicios.png"
-              alt=""
+              src="./images/icons/linea_servicios.png"
+              alt="Linea Diagonal Blanca"
             />
             <h2 className="services-title">Servicios</h2>
           </div>
@@ -22,15 +22,15 @@ const Services = () => {
             <br />
             <p>
               <b>Last mile: </b> Nos adaptamos con gran versatilidad en función
-              de sus necesidades, ofreciendo tanto envíos{" "}
-              <b>Same day y Programados.</b>
+              de sus necesidades, ofreciendo tanto envíos
+              <b> Same day y Programados.</b>
             </p>
           </div>
         </div>
       </div>
       <img
-        src="../images/pictures/foto servicios-sinBarra.png"
-        alt=""
+        src="../images/pictures/foto_servicios.png"
+        alt="Hombre hablando por Walkie Talkie"
         className="img-services"
       />
     </section>

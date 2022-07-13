@@ -6,17 +6,14 @@
   padding: 50px;
   font-weight: 500;
 }
-
 .row {
   display: flex;
   justify-content: center;
 }
-
 .form-title {
   font-size: 1rem;
   font-weight: 600;
 }
-
 .form-row {
   display: flex;
   justify-content: center;
@@ -25,11 +22,9 @@
   min-width: 300px;
   margin: 20px 10px;
 }
-
 .form-row label {
-  height: 20px
+  height: 20px;
 }
-
 .form-row input[type="text"],
 .form-row input[type="email"],
 .form-row input[type="tel"] {
@@ -41,7 +36,6 @@
   padding: 7px;
   font-size: 14px;
 }
-
 .form-row textarea {
   font-size: 14px;
   border: 0;
@@ -52,29 +46,38 @@
   min-width: 200px;
   resize: vertical;
 }
-
 .form-row button {
   font-size: 16px;
   font-weight: bold;
   width: 100px;
   color: black;
-  background-color: rgb(248, 244, 8);
+  background-color: #fff204;
   border: none;
   padding: 10px 5px;
   cursor: pointer;
 }
-
 .form-row button:hover {
   background-color: rgb(252, 250, 126);
 }
-
 .form-row button:active {
   background-color: rgb(230, 226, 0);
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (min-width: 501px) and (max-width: 766px) {
   .speaker-form {
     padding: 10px 50px;
+  }
+  .form-title {
+    text-align: center;
+  }
+  .form-row button {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form-row {
+    min-width: 250px;
   }
   .form-title {
     text-align: center;

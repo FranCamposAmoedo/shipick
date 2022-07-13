@@ -6,10 +6,10 @@ const Home = () => {
       <h2>
         ¡Somos la <b>logística para tu ecommerce!</b>
       </h2>
-      <img src="../images/icons/línea para titulo.png" alt="" />
+      <img src="../images/icons/linea_titulo.png" alt="Línea Amarilla" />
       <p>
-        Te ayudamos a llevar a cabo tu proyecto{" "}
-        <b>de manera ágil y eficiente.</b>
+        Te ayudamos a llevar a cabo tu proyecto
+        <b> de manera ágil y eficiente.</b>
       </p>
     </div>
   );

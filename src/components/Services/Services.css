@@ -1,17 +1,15 @@
 #services {
   display: flex;
-  background-color: rgb(248, 244, 8);
+  background-color: #fff204;
 }
-
 .services-bar {
-  background-image: url(../../../public/images/icons/Recurso\ 71.png);
+  background-image: url(../../../public/images/icons/barra_blanca.png);
   background-repeat: no-repeat;
   background-size: 2.15%;
   background-position: right;
   background-position-y: center;
   width: 50%;
 }
-
 .services-text {
   padding-top: 7vw;
   padding-left: 14vw;
@@ -19,20 +17,17 @@
   display: flex;
   flex-direction: column;
 }
-
 .services-line-title {
   width: fit-content;
   height: 200px;
   margin-bottom: 3vw;
 }
-
 .services-line {
   position: relative;
   top: 0;
   left: 60px;
   width: 180px;
 }
-
 .services-title {
   position: relative;
   top: -130px;
@@ -40,13 +35,11 @@
   font-size: 4rem;
   font-weight: 800;
 }
-
 .services-paragraph {
   font-weight: 350;
   font-size: 1.5vw;
   line-height: 2.5vw;
 }
-
 .img-services {
   display: block;
   width: 50%;
@@ -63,7 +56,6 @@
     height: 180px;
     margin-bottom: 2vw;
   }
-
   .services-line {
     width: 140px;
     left: 40px;
@@ -92,7 +84,6 @@
     margin: 0;
     padding: 2rem 1rem;
   }
-
   .services-line-title {
     width: 100%;
     height: 100px;
@@ -105,7 +96,6 @@
     top: -70px;
     font-size: 2rem;
   }
-
   .services-paragraph {
     padding: 0 2rem;
     font-size: 1rem;

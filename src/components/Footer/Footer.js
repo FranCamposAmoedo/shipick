@@ -23,27 +23,28 @@ const Footer = () => {
       <div className="contacts-footer">
         <div className="tel-email">
           <h6 className="tel-email-item">Contacto</h6>
-          <a href="tel:+541126719754">
+          <a href="tel:+541126719754" target="_blank" rel="noreferrer">
             <img
               className="tel-email-item"
-              src="./images/icons/icono cel.png"
-              alt=""
+              src="./images/icons/icono_cel.png"
+              alt="Icono Celular"
             />
           </a>
-          <a className="tel-email-item contact-text" href="tel:+541126719754">
+          <a className="tel-email-item contact-text" href="tel:+541126719754" target="_blank" rel="noreferrer">
             +54 11 2671-9754
           </a>
           <span className="tel-email-item">|</span>
-          <a href="mailto:info@shipick.com.ar">
+          <a href="mailto:info@shipick.com.ar" target="_blank" rel="noreferrer">
             <img
               className="tel-email-item"
-              src="./images/icons/icono mail.png"
-              alt=""
+              src="./images/icons/icono_email.png"
+              alt="Icono Sobre"
             />
           </a>
           <a
             className="tel-email-item contact-text"
             href="mailto:info@shipick.com.ar"
+            target="_blank" rel="noreferrer"
           >
             info@shipick.com.ar
           </a>
@@ -51,16 +52,18 @@ const Footer = () => {
         <div className="follow-us">
           <h6 className="follow-us-item">Seguinos</h6>
           <a
-            className="follow-us-item"
+            className="follow-us-item fui"
             href="https://www.facebook.com/Shipick-Logi%CC%81stica-Fulfillment-102784304895854"
+            target="_blank" rel="noreferrer"
           >
-            <img src="./images/icons/icono face_1.png" alt="" />
+            <img src="./images/icons/icono_fbFooter.png" alt="Icono Facebook" />
           </a>
           <a
-            className="follow-us-item"
+            className="follow-us-item fui"
             href="https://www.instagram.com/shipicklog/"
+            target="_blank" rel="noreferrer"
           >
-            <img src="./images/icons/icono insta_1.png" alt="" />
+            <img src="./images/icons/icono_igFooter.png" alt="Icono Instagram" />
           </a>
         </div>
       </div>

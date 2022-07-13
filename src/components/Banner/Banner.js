@@ -6,12 +6,12 @@ const Banner = (props) => {
       <div className="banner-track">
         {props.banners.map((banner) => (
           <div key={banner.id} className="slide">
-            <img src={banner.img} alt={banner.img} />
+            <img src={banner.img} alt={banner.title} />
           </div>
         ))}
         {props.banners.map((banner) => (
           <div key={banner.id} className="slide">
-            <img src={banner.img} alt={banner.img} />
+            <img src={banner.img} alt={banner.title} />
           </div>
         ))}
       </div>
