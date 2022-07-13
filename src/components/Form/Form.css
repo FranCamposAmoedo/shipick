@@ -62,6 +62,16 @@
 .form-row button:active {
   background-color: rgb(230, 226, 0);
 }
+.swal-text {
+  text-align: center;
+}
+.swal-button {
+  color: black;
+  background-color: #fff204;
+}
+.swal-button:not([disabled]):hover {
+  background-color: rgb(252, 250, 126);
+}
 
 @media screen and (min-width: 501px) and (max-width: 766px) {
   .speaker-form {

@@ -1,5 +1,6 @@
 import "./Form.css";
 import emailjs from "emailjs-com";
+import swal from "sweetalert";
 
 const Form = () => {
   const sendEmail = (e) => {
@@ -7,8 +8,13 @@ const Form = () => {
 
     emailjs.sendForm("service_xna7tms","template_lglnvmc",e.target,"TtolZpIkJMBcmSEU3").then(res=>{
       e.target.reset();
-      alert("Se ha enviado correctamente.");
-      console.log(res);
+      swal({
+        title: "Gracias!",
+        text: "Su mensaje se ha enviado correctamente",
+        icon: "success",
+        button: "ACEPTAR",
+        timer: "3000"
+      });
     })
   }
   return (
