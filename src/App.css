@@ -18,11 +18,10 @@ body {
   margin: 0 auto;
   padding-top: 100px;
   text-indent: -9999em;
-  background-image: url(../public/images/pictures/foto_portadaMobile3.png);
+  background-image: url(../public/images/pictures/foto_portadaCamion.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  /* background-color: rgb(150, 167, 184); */
   height: 100vh;
 }
 
@@ -82,5 +81,21 @@ body {
   75%, 100% {
     background-position: -30px 11px, -30px 35px, -30px 60px;
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .shipick-loader {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-indent: -9999em;
+    background-image: url(../public/images/pictures/foto_portadaMobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+    /* background-color: rgb(150, 167, 184); */
+    height: 100vh;
   }
 }

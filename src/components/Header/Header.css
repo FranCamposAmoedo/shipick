@@ -15,10 +15,10 @@
 
 @media screen and (max-width: 500px) {
   .background-parallax {
-    background-image: url(../../../public/images/pictures/foto_portadaMobile3.png);
+    background-image: url(../../../public/images/pictures/foto_portadaMobile.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 0 50%;
     background-attachment: fixed;
     top: 0;
     width: 100%;

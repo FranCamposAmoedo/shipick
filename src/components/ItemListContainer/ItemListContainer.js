@@ -44,7 +44,7 @@ const ItemListContainer = () => {
         </div>
         <div data-aos="zoom-out-up" className="container-list">
           <img
-            className="item-list"
+            className="item-list img-avisos"
             src="../images/icons/icono_avisosSms.png"
             alt="Icono Celular"
           />
