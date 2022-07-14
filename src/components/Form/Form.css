@@ -36,6 +36,9 @@
   padding: 7px;
   font-size: 14px;
 }
+.form-row input[name="line"] {
+  border-bottom: 2px solid #fff204;
+}
 .form-row textarea {
   font-size: 14px;
   border: 0;

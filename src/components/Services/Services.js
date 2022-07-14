@@ -20,7 +20,7 @@ const Services = () => {
               costos, suprimiendo traslados innecesarios.
             </p>
             <br />
-            <p>
+            <p className="last-mile-paragraph">
               <b>Last mile: </b> Nos adaptamos con gran versatilidad en función
               de sus necesidades, ofreciendo tanto envíos
               <b> Same day y Programados.</b>

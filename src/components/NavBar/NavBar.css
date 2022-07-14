@@ -14,7 +14,7 @@
   margin-left: 12vw;
 }
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.13rem;
   letter-spacing: 4px;
   margin: 0 0.8rem;
   color: white;
@@ -27,10 +27,9 @@
 }
 .nav-link.active img {
   width: 50px;
-  height: 5px;
   position: relative;
   top: 30px;
-  left: 15px;
+  left: 11px;
 }
 .social {
   margin: 0 0.5rem;
@@ -107,6 +106,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    align-items: center;
   }
   .navbar-collapse {
     display: flex;
@@ -137,6 +137,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    align-items: center;
   }
   .navbar-collapse {
     display: flex;

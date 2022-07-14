@@ -4,11 +4,12 @@ const Home = () => {
   return (
     <div className="parallax-content">
       <h2>
-        ¡Somos la <b>logística para tu ecommerce!</b>
+        ¡Somos la <b>logística <br />
+           para tu ecommerce!</b>
       </h2>
       <img src="../images/icons/linea_titulo.png" alt="Línea Amarilla" />
       <p>
-        Te ayudamos a llevar a cabo tu proyecto
+        Te ayudamos a llevar a cabo tu proyecto <br />
         <b> de manera ágil y eficiente.</b>
       </p>
     </div>
