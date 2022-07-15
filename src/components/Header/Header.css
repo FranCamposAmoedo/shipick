@@ -13,18 +13,26 @@
   z-index: -2;
 }
 
+@media screen and (min-width: 501px) and (max-width: 1025px) {
+  .background-parallax {
+    background-attachment: scroll;
+  }
+  
+}
+
 @media screen and (max-width: 500px) {
   .background-parallax {
-    background-color: #fff204;
-    background-image: url(../../../public/images/pictures/3.png);
+    background-image: url(../../../public/images/pictures/foto_portadaMobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 50%;
     background-attachment: scroll;
+    overflow: hidden;
     top: 0;
     width: 100%;
     min-height: 100vh;
     margin: 0;
+    margin-bottom: 0;
     inset: 0;
     z-index: -2;
   }
