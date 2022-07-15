@@ -91,11 +91,10 @@ body {
     margin: 0 auto;
     padding-top: 100px;
     text-indent: -9999em;
-    background-image: url(../public/images/pictures/foto_portadaMobile.png);
+    background-image: url(../public/images/pictures/foto_portadaMobbile7.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 50%;
-    /* background-color: rgb(150, 167, 184); */
     height: 100vh;
   }
 }
