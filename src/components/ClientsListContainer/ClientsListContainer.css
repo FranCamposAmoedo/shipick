@@ -18,11 +18,15 @@
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding: 1rem 15rem;
+  padding: 1rem 19.5rem;
   padding-bottom: 10rem;
 }
 .client-container {
   margin: 1.5rem;
+}
+
+.client-container img {
+  max-width: 210px;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1208px) {
