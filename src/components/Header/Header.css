@@ -15,16 +15,16 @@
 
 @media screen and (max-width: 500px) {
   .background-parallax {
-    background-image: url(../../../public/images/pictures/3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 50%;
+    background-image: url(../../../public/images/pictures/2.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: 0 50%; */
     /* background-attachment: fixed; */
-    top: 0;
-    width: 100%;
-    min-height: 100vh;
-    margin: 0;
-    inset: 0;
-    z-index: -2;
+   /*  top: 0; */
+    /* width: 100%; */
+    /* min-height: 100vh; */
+    /* margin: 0; */
+    /* inset: 0; */
+    /* z-index: -2; */
   }
 }
