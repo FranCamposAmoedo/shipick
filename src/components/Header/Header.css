@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: 50% 50%;
   background-position-x: right;
-  background-attachment: scroll;
+  background-attachment: fixed;
   top: 0;
   width: 100%;
   min-height: 100vh;
@@ -13,13 +13,14 @@
   z-index: -2;
 }
 
-/* @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .background-parallax {
-    background-image: url(../../../public/images/pictures/2.jpg);
+    background-color: #fff204;
+    background-image: url(../../../public/images/pictures/3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 50%;
-    background-attachment: fixed;
+    background-attachment: scroll;
     top: 0;
     width: 100%;
     min-height: 100vh;
@@ -27,4 +28,4 @@
     inset: 0;
     z-index: -2;
   }
-} */
+}
