@@ -30,7 +30,12 @@ const Footer = () => {
               alt="Icono Celular"
             />
           </a>
-          <a className="tel-email-item tei contact-text" href="tel:+541126719754" target="_blank" rel="noreferrer">
+          <a
+            className="tel-email-item tei contact-text"
+            href="tel:+541126719754"
+            target="_blank"
+            rel="noreferrer"
+          >
             +54 11 2671-9754
           </a>
           <span className="tel-email-item">|</span>
@@ -44,7 +49,8 @@ const Footer = () => {
           <a
             className="tel-email-item tei contact-text"
             href="mailto:info@shipick.com.ar"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
             info@shipick.com.ar
           </a>
@@ -54,19 +60,31 @@ const Footer = () => {
           <a
             className="follow-us-item fui"
             href="https://www.facebook.com/Shipick-Logi%CC%81stica-Fulfillment-102784304895854"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
             <img src="./images/icons/icono_fbFooter.png" alt="Icono Facebook" />
           </a>
           <a
             className="follow-us-item fui"
             href="https://www.instagram.com/shipicklog/"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
-            <img src="./images/icons/icono_igFooter.png" alt="Icono Instagram" />
+            <img
+              src="./images/icons/icono_igFooter.png"
+              alt="Icono Instagram"
+            />
           </a>
         </div>
+        <a className="btn-home-footer" href="#home">
+        <img
+          src="../images/icons/icono_flechaAmarilla.png"
+          alt="Flecha Amarilla"
+        />
+      </a>
       </div>
+      
     </footer>
   );
 };
