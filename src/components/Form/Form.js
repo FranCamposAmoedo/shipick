@@ -6,7 +6,7 @@ const Form = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_xna7tms","template_lglnvmc",e.target,"TtolZpIkJMBcmSEU3").then(res=>{
+    emailjs.sendForm("service_u1qc4lg","template_lglnvmc",e.target,"TtolZpIkJMBcmSEU3").then(res=>{
       e.target.reset();
       swal({
         title: "Gracias!",
