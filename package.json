@@ -1,5 +1,6 @@
 {
   "name": "shipick",
+  "homepage": "https://www.shipick.com.ar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
