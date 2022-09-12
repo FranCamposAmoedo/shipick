@@ -23,22 +23,22 @@ const Footer = () => {
       <div className="contacts-footer">
         <div className="tel-email">
           <h6 className="tel-email-item">Contacto</h6>
-          <a href="tel:+541126719754" target="_blank" rel="noreferrer">
+      {/*     <a href="tel:+541126719754" target="_blank" rel="noreferrer">
             <img
               className="tel-email-item tei"
               src="./images/icons/icono_cel.png"
               alt="Icono Celular"
             />
-          </a>
-          <a
+          </a> */}
+       {/*    <a
             className="tel-email-item tei contact-text"
             href="tel:+541126719754"
             target="_blank"
             rel="noreferrer"
           >
             +54 11 2671-9754
-          </a>
-          <span className="tel-email-item">|</span>
+          </a> */}
+         {/*  <span className="tel-email-item">|</span> */}
           <a href="mailto:info@shipick.com.ar" target="_blank" rel="noreferrer">
             <img
               className="tel-email-item tei"

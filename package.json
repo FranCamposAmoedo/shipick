@@ -1,5 +1,6 @@
 {
   "name": "shipick",
+  "homepage":"https://www.shipick.com.ar/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +15,6 @@
     "sweetalert": "^2.1.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://www.shipick.com.ar",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
